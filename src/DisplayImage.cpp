@@ -37,6 +37,7 @@ int FFTProject::DisplayImage(cv::Mat& img, const char* windowName){
     return 0;
 }
 
+// From: https://docs.opencv.org/2.4/doc/tutorials/highgui/video-input-psnr-ssim/video-input-psnr-ssim.html
 double FFTProject::getPSNR(const Mat& I1, const Mat& I2)
 {
     Mat s1;
